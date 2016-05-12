@@ -47,9 +47,9 @@ end
 
 
 
-node.default.java.jdk_version = 7
-node.default.java.set_etc_environment = true
-include_recipe "java"
+#node.default.java.jdk_version = 7
+#node.default.java.set_etc_environment = true
+#include_recipe "java"
 
 
 group node.apache_hadoop.group do
